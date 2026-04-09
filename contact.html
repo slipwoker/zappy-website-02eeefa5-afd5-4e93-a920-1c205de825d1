@@ -906,14 +906,7 @@
 
           <div class="contact-form-group">
             <label class="contact-form-label" for="contact-subject">נושא הפנייה</label>
-            <select class="contact-form-input contact-form-select zappy-editable-dropdown" id="contact-subject" name="subject" required="" aria-required="true">
-              <option value="" disabled="" selected="">בחרו נושא...</option>
-              <option value="tour">תיאום סיור רכיבה</option>
-              <option value="rental">השכרת ציוד</option>
-              <option value="training">הדרכה ואימון</option>
-              <option value="group">אירועי קבוצה</option>
-              <option value="other">אחר</option>
-            </select>
+            <select class="contact-form-input contact-form-select zappy-editable-dropdown field-invalid" id="contact-subject" name="subject" required="" aria-required="true" aria-invalid="true" aria-describedby="error-subject"><option value="בחרו-נושא...">בחרו נושא...</option><option value="tour">אימון ניסיון</option><option value="rental">רכיבה טיפולית</option><option value="training">הדרכה ואימון</option><option value="group">סדנאות מנהיגות והעשרה - הכלים שמעבר לאוכף</option><option value="ימי-גיבוש-לעובדים">ימי גיבוש לעובדים</option><option value="רכיבה-בענף-האקסטרים-קאובוי">רכיבה בענף האקסטרים קאובוי</option><option value="רכיבה-מערבית-משולבת">רכיבה מערבית משולבת</option><option value="other">אחר</option></select><span class="field-error-message" role="alert" aria-live="polite" id="error-subject">This field is required.</span>
           </div>
 
           <div class="contact-form-group">
@@ -976,7 +969,7 @@
             <div class="contact-info-icon" aria-hidden="true">🕐</div>
             <div class="contact-info-content">
               <span class="contact-info-label">שעות פעילות</span>
-              <span class="contact-info-value">א׳–ו׳ | 08:00–19:00</span>
+              <span class="contact-info-value" >א׳–ו׳ | 08:00–19:00</span>
             </div>
           </div>
 
