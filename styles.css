@@ -11793,6 +11793,303 @@ a.contact-info-value:hover {
   }
 }
 
+/* Added Component Styles */
+/* ============================================================
+   CONTACT SECTION — רכבו לחופש האמיתי
+   ============================================================ */
+
+.contact-section {
+  background: var(--gradient-primary, linear-gradient(180deg, #3A4A7D 0%, #2F3E6E 100%));
+  padding: 80px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Container */
+.contact-section__container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* ── Header ── */
+.contact-section__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-section__badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.contact-section__title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.contact-section__title::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 3px;
+  background: #f5a623;
+  border-radius: 2px;
+  margin: 10px auto 0;
+}
+
+.contact-section__subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* ── Image Cards ── */
+.contact-section__image-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.contact-section__image-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-section__image-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.contact-section__image-wrap {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: rgba(26, 35, 126, 0.4);
+}
+
+.contact-section__card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.contact-section__image-card:hover .contact-section__card-img {
+  transform: scale(1.05);
+}
+
+.contact-section__card-body {
+  padding: 20px 22px;
+}
+
+.contact-section__card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 6px;
+}
+
+.contact-section__card-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── Form Wrapper ── */
+.contact-section__form-wrapper {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 40px 36px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.2);
+}
+
+/* ── Form Layout ── */
+.contact-section__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-section__form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* ── Field ── */
+.contact-section__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-section__label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.3px;
+}
+
+/* ── Inputs ── */
+.contact-section__input {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 13px 16px;
+  font-size: 0.95rem;
+  font-family: system-ui, sans-serif;
+  color: #ffffff;
+  outline: none;
+  transition: border-color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+  direction: rtl;
+  text-align: right;
+}
+
+.contact-section__input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.contact-section__input:focus {
+  border-color: #f5a623;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.2);
+}
+
+/* Select */
+.contact-section__select {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23ffffff' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left 14px center;
+  padding-left: 40px;
+}
+
+.contact-section__select option {
+  background: #2F3E6E;
+  color: #ffffff;
+}
+
+/* Textarea */
+.contact-section__textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+/* ── Privacy ── */
+.contact-section__privacy {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  text-align: center;
+}
+
+/* ── Submit Button ── */
+.contact-section__submit {
+  width: 100%;
+  padding: 16px 24px;
+  background: #f5a623;
+  color: #1A237E;
+  font-size: 1.05rem;
+  font-weight: 800;
+  font-family: system-ui, sans-serif;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 20px rgba(245, 166, 35, 0.35);
+}
+
+.contact-section__submit:hover {
+  background: #e8960f;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(245, 166, 35, 0.5);
+}
+
+.contact-section__submit:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.contact-section__submit:active {
+  transform: translateY(0);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 56px 16px;
+  }
+
+  .contact-section__container {
+    gap: 36px;
+  }
+
+  .contact-section__title {
+    font-size: 1.7rem;
+  }
+
+  .contact-section__image-cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .contact-section__image-wrap {
+    height: 180px;
+  }
+
+  .contact-section__form-wrapper {
+    padding: 28px 20px;
+  }
+
+  .contact-section__form-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section__title {
+    font-size: 1.5rem;
+  }
+
+  .contact-section__submit {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
