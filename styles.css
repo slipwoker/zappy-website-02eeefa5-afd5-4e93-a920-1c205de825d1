@@ -12609,6 +12609,49 @@ a.contact-info-value:hover {
   display: none !important;
 }
 
+/* AI-generated section */
+.topbanner-announcement {
+  width: 100%;
+  background: #0d1a4a;
+  padding: 9px 16px;
+  text-align: center;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.topbanner-text {
+  margin: 0;
+  padding: 0;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #d6dff7;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topbanner-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .topbanner-announcement {
+    padding: 8px 12px;
+  }
+
+  .topbanner-text {
+    font-size: 12.5px;
+    gap: 5px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
