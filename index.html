@@ -1062,7 +1062,7 @@
 
     <!-- Header -->
     <div class="contact-rtl-header">
-      <p class="zappy-editable"><span class="contact-rtl-badge">📬 צרו קשר</span>
+      <p><span class="contact-rtl-badge">📬 צרו קשר</span>
       </p><h2 class="contact-rtl-title" id="contact-heading">נשמח לשמוע מכם</h2>
       <p class="contact-rtl-subtitle">צרו קשר ונבנה יחד את המסלול המושלם עבורכם</p>
       <div class="contact-rtl-divider"></div>
@@ -1133,19 +1133,19 @@
         <form class="contact-rtl-form" novalidate="" aria-label="טופס יצירת קשר">
           <h3 class="contact-rtl-form-title">שלחו לנו הודעה</h3>
 
-          <div class="contact-rtl-form-row zappy-preserve-css-grid" id="zappy-auto-grid-1775752301411-5alhbt" data-zappy-auto-grid="true" data-original-item-width="296" data-original-gap="18px" style="--zappy-grid-cols: 295.609px 295.609px; grid-template-columns: 295.609px 295.609px; align-items: stretch !important;" data-zappy-explicit-columns="true">
+          <div class="contact-rtl-form-row zappy-preserve-css-grid" id="zappy-auto-grid-1775752301411-5alhbt" data-zappy-auto-grid="true" data-original-item-width="296" data-original-gap="18px" style="display: grid; --zappy-grid-cols: 295.609px 295.609px; grid-template-columns: 295.609px 295.609px; align-items: stretch !important;" data-zappy-explicit-columns="true">
             <!-- Full Name -->
             <div class="contact-rtl-field" data-grid-item-index="0">
-              <p class="zappy-editable"><label class="contact-rtl-label" for="contact-name">שם מלא <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
+              <p><label class="contact-rtl-label" for="contact-name">שם מלא <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
               </p><div class="contact-rtl-input-wrap">
                 <span class="contact-rtl-input-icon" aria-hidden="true">👤</span>
-                <input class="contact-rtl-input" type="text" id="contact-name" name="name" placeholder="הכניסו את שמכם המלא" required="" autocomplete="name" aria-required="true">
+                <input class="contact-rtl-input" type="text" id="contact-name" name="name" placeholder="הכניסו את שמכם המלא" required="" autocomplete="name" aria-required="true" >
               </div>
             </div>
 
             <!-- Phone -->
             <div class="contact-rtl-field" data-grid-item-index="1">
-              <p class="zappy-editable"><label class="contact-rtl-label" for="contact-phone">טלפון <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
+              <p><label class="contact-rtl-label" for="contact-phone">טלפון <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
               </p><div class="contact-rtl-input-wrap">
                 <span class="contact-rtl-input-icon" aria-hidden="true">📱</span>
                 <input class="contact-rtl-input" type="tel" id="contact-phone" name="phone" placeholder="05X-XXXXXXX" required="" autocomplete="tel" aria-required="true" dir="ltr">
@@ -1155,27 +1155,19 @@
 
           <!-- Email -->
           <div class="contact-rtl-field">
-            <p class="zappy-editable"><label class="contact-rtl-label" for="contact-email">כתובת אימייל</label>
+            <p><label class="contact-rtl-label" for="contact-email">כתובת אימייל</label>
             </p><div class="contact-rtl-input-wrap">
               <span class="contact-rtl-input-icon" aria-hidden="true">✉️</span>
-              <input class="contact-rtl-input" type="email" id="contact-email" name="email" placeholder="your@email.com" autocomplete="email" dir="ltr">
+              <input class="contact-rtl-input" type="email" id="contact-email" name="email" placeholder="your@email.com" autocomplete="email" dir="ltr" >
             </div>
           </div>
 
           <!-- Subject dropdown -->
           <div class="contact-rtl-field">
-            <p class="zappy-editable"><label class="contact-rtl-label" for="contact-subject">נושא הפנייה <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
+            <p><label class="contact-rtl-label" for="contact-subject">נושא הפנייה <span class="contact-rtl-required" aria-label="שדה חובה">*</span></label>
             </p><div class="contact-rtl-input-wrap contact-rtl-select-wrap">
               <span class="contact-rtl-input-icon" aria-hidden="true">📋</span>
-              <select class="contact-rtl-input contact-rtl-select zappy-editable-dropdown" id="contact-subject" name="subject" required="" aria-required="true">
-                <option value="" disabled="" selected="">בחרו נושא פנייה</option>
-                <option value="lesson">שיעורי רכיבה</option>
-                <option value="trail">סיורי שטח</option>
-                <option value="therapy">רכיבה טיפולית</option>
-                <option value="event">אירועים וקבוצות</option>
-                <option value="membership">חברות במרכז</option>
-                <option value="other">אחר</option>
-              </select>
+              <select class="contact-rtl-input contact-rtl-select zappy-editable-dropdown" id="contact-subject" name="subject" required="" aria-required="true"><option value="בחרו-נושא-פנייה">בחרו נושא פנייה</option><option value="lesson">שיעורי רכיבה</option><option value="trail">אימון ניסיון</option><option value="רכיבה-מערבית">רכיבה מערבית</option><option value="therapy">רכיבה טיפולית</option><option value="event">אירועים וקבוצות</option><option value="membership">סדנאות</option><option value="ימי-גיבוש-לעובדים">ימי גיבוש לעובדים</option><option value="other">אחר</option></select>
               <span class="contact-rtl-select-arrow" aria-hidden="true">▾</span>
             </div>
           </div>
