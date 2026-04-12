@@ -1,79 +1,89 @@
-# Business — Generative Engine Optimization Map
+# לרכב אל החופש — Generative Engine Optimization Map
+
+> Ride on Freedom (לרכב על החופש) is a premium professional equestrian center specializing in Western riding and therapeutic horsemanship. The brand embodies a 'Professionalism meets Nature' philosophy, evoking freedom, discipline, and empowerment through a rustic-modern aesthetic. Visual identity is rooted in earthy tones, open landscapes, dusty trails, and the raw beauty of horses, paired with sharp, clean typography to convey both warmth and credibility. The center serves a diverse audience — from casual riders to individuals seeking therapeutic benefits and aspiring professional instructors — positioning itself as a trusted, transformative destination in the equestrian world.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://larechev-el-hachofesh.zappy5.app
 מרכז פרשות מקצועי המשלב רכיבה וסטרן, רכיבה טיפולית ואימון אישי בלב הטבע. גלו חופש, כוח ושינוי אמיתי על גב הסוס. הצטרפו אלינו היום.
 
 ### תוכניות
-https://example.com/programs
+https://larechev-el-hachofesh.zappy5.app/programs
 משיעורי רכיבה וסטרן למתחילים ועד אימוני Extreme Cowboy מתקדמים ורכיבה טיפולית — כל תוכנית בנויה להעצים אתכם. מצאו את המסלול שלכם ותתחילו לרכב.
 
 ### גלריה
-https://example.com/gallery
+https://larechev-el-hachofesh.zappy5.app/gallery
 צפו בגלריה המרהיבה שלנו — נופים פתוחים, שבילים מאובקים וסוסים בטבעם. כל תמונה מספרת סיפור של חופש ורכיבה אמיתית. תנו לתמונות לדבר אליכם.
 
 ### צור קשר
-https://example.com/contact
+https://larechev-el-hachofesh.zappy5.app/contact
 רוצים לדעת עוד על שיעורי רכיבה על סוסים, רכיבה טיפולית או תוכניות מקצועיות? צרו קשר עכשיו ונבנה יחד את המסלול המושלם עבורכם. אנחנו כאן בשבילכם.
 
 ### Products
-https://example.com/products
+https://larechev-el-hachofesh.zappy5.app/products
 המוצרים שלנו - Ride on Freedom
 
 ### Cart
-https://example.com/cart
+https://larechev-el-hachofesh.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://larechev-el-hachofesh.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://larechev-el-hachofesh.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://larechev-el-hachofesh.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://larechev-el-hachofesh.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://larechev-el-hachofesh.zappy5.app/product/:slug
 פרטי המוצר - Ride on Freedom
 
 ### Category
-https://example.com/category/:slug
+https://larechev-el-hachofesh.zappy5.app/category/:slug
 מוצרים - Ride on Freedom
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://larechev-el-hachofesh.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://larechev-el-hachofesh.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://larechev-el-hachofesh.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About לרכב אל החופש
+Ride on Freedom (לרכב על החופש) is a premium professional equestrian center specializing in Western riding and therapeutic horsemanship. The brand embodies a 'Professionalism meets Nature' philosophy, evoking freedom, discipline, and empowerment through a rustic-modern aesthetic. Visual identity is rooted in earthy tones, open landscapes, dusty trails, and the raw beauty of horses, paired with sharp, clean typography to convey both warmth and credibility. The center serves a diverse audience — from casual riders to individuals seeking therapeutic benefits and aspiring professional instructors — positioning itself as a trusted, transformative destination in the equestrian world.
+
+## Target Audience
+Riders of all levels, individuals seeking therapeutic riding, aspiring professional riding instructors
+
+## Industry
+Equestrian / Therapeutic Horsemanship
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://larechev-el-hachofesh.zappy5.app/sitemap.xml
+- **Robots.txt**: https://larechev-el-hachofesh.zappy5.app/robots.txt
