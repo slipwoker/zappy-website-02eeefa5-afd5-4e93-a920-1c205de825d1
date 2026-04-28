@@ -5,65 +5,65 @@
 ## Pages
 
 ### בית
-https://ride2freedom.com
+https://human-impact.net
 מרכז פרשות מקצועי המשלב רכיבה וסטרן, רכיבה טיפולית ואימון אישי בלב הטבע. גלו חופש, כוח ושינוי אמיתי על גב הסוס. הצטרפו אלינו היום.
 
 ### תוכניות
-https://ride2freedom.com/programs
+https://human-impact.net/programs
 משיעורי רכיבה וסטרן למתחילים ועד אימוני Extreme Cowboy מתקדמים ורכיבה טיפולית — כל תוכנית בנויה להעצים אתכם. מצאו את המסלול שלכם ותתחילו לרכב.
 
 ### גלריה
-https://ride2freedom.com/gallery
+https://human-impact.net/gallery
 צפו בגלריה המרהיבה שלנו — נופים פתוחים, שבילים מאובקים וסוסים בטבעם. כל תמונה מספרת סיפור של חופש ורכיבה אמיתית. תנו לתמונות לדבר אליכם.
 
 ### צור קשר
-https://ride2freedom.com/contact
+https://human-impact.net/contact
 רוצים לדעת עוד על שיעורי רכיבה על סוסים, רכיבה טיפולית או תוכניות מקצועיות? צרו קשר עכשיו ונבנה יחד את המסלול המושלם עבורכם. אנחנו כאן בשבילכם.
 
 ### Products
-https://ride2freedom.com/products
-המוצרים שלנו - Ride on Freedom
+https://human-impact.net/products
+המוצרים שלנו - לרכב אל החופש
 
 ### Cart
-https://ride2freedom.com/cart
+https://human-impact.net/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://ride2freedom.com/checkout
+https://human-impact.net/checkout
 תשלום
 
 ### Login
-https://ride2freedom.com/login
+https://human-impact.net/login
 התחברות לקוחות
 
 ### Account
-https://ride2freedom.com/account
+https://human-impact.net/account
 החשבון שלי
 
 ### Order Success
-https://ride2freedom.com/order-success
+https://human-impact.net/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://ride2freedom.com/product/:slug
-פרטי המוצר - Ride on Freedom
+https://human-impact.net/product/:slug
+פרטי המוצר - לרכב אל החופש
 
 ### Category
-https://ride2freedom.com/category/:slug
-מוצרים - Ride on Freedom
+https://human-impact.net/category/:slug
+מוצרים - לרכב אל החופש
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://ride2freedom.com/privacy
+https://human-impact.net/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://ride2freedom.com/terms
+https://human-impact.net/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://ride2freedom.com/accessibility
+https://human-impact.net/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -75,5 +75,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://ride2freedom.com/sitemap.xml
-- **Robots.txt**: https://ride2freedom.com/robots.txt
+- **Sitemap**: https://human-impact.net/sitemap.xml
+- **Robots.txt**: https://human-impact.net/robots.txt
