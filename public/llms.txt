@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# לרכב אל החופש — Generative Engine Optimization Map
+
+> Ride on Freedom (לרכב על החופש) is a premium professional equestrian center specializing in Western riding and therapeutic horsemanship. The brand embodies a 'Professionalism meets Nature' philosophy, evoking freedom, discipline, and empowerment through a rustic-modern aesthetic. Visual identity is rooted in earthy tones, open landscapes, dusty trails, and the raw beauty of horses, paired with sharp, clean typography to convey both warmth and credibility. The center serves a diverse audience — from casual riders to individuals seeking therapeutic benefits and aspiring professional instructors — positioning itself as a trusted, transformative destination in the equestrian world.
 
 ---
 
@@ -68,12 +70,29 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+_No products are currently configured._
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://human-impact.net/sitemap.xml
-- **Robots.txt**: https://human-impact.net/robots.txt
+## About לרכב אל החופש
+Ride on Freedom (לרכב על החופש) is a premium professional equestrian center specializing in Western riding and therapeutic horsemanship. The brand embodies a 'Professionalism meets Nature' philosophy, evoking freedom, discipline, and empowerment through a rustic-modern aesthetic. Visual identity is rooted in earthy tones, open landscapes, dusty trails, and the raw beauty of horses, paired with sharp, clean typography to convey both warmth and credibility. The center serves a diverse audience — from casual riders to individuals seeking therapeutic benefits and aspiring professional instructors — positioning itself as a trusted, transformative destination in the equestrian world.
+
+## Target Audience
+Riders of all levels, individuals seeking therapeutic riding, aspiring professional riding instructors
+
+## Industry
+Equestrian / Therapeutic Horsemanship
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://human-impact.net/sitemap.xml
+- Robots: https://human-impact.net/robots.txt
+- Flattened page text (for LLMs): https://human-impact.net/llms-full.txt
+- Products (JSON): https://human-impact.net/products.json
+- Products (Google Merchant RSS): https://human-impact.net/product-feed.xml
